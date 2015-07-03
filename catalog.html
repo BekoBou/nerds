@@ -257,28 +257,7 @@
   </div>
 
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-  <script src="js/map.js"></script>
-  <script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', function () { 
-          console.log('document loaded');
-          // placeholder for JavaScript
-          
-          var feedback = document.getElementById('feedback');
-          var modal = document.querySelector(".modal");
-          var close = document.querySelector(".modal-content-close");
-          
-          feedback.addEventListener('click', function (event) {
-            event.preventDefault();
-            modal.classList.add('modal-show');
-          });
-          
-          close.addEventListener('click', function(event) {
-            event.preventDefault();
-            modal.classList.remove('modal-show');
-          });
-          
-        }, false);
-  </script>
+  <script src="assets/app.min.js"></script>
 
 </body>
 
