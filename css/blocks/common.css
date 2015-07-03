@@ -1,0 +1,268 @@
+.container
+{
+  width: 880px;
+  margin: 0 auto;
+}
+
+.clearfix:after
+{
+  display: table;
+  clear: both;
+
+  content: '';
+}
+
+.hidden
+{
+  display: none;
+}
+
+.top-header
+{
+  /* import menu.css, slider.css */
+  width: 100%;
+  margin-bottom: 80px;
+
+  color: #000;
+  background-color: #eee;
+}
+
+.intro-title
+{
+  width: 800px;
+  margin: 68px auto 82px auto;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.outpinked
+{
+  outline: 1px solid pink;
+}
+
+.redded
+{
+  background-color: rgba(255, 0, 0, .3);
+}
+
+body
+{
+  min-width: 900px;
+  margin: 0;
+  padding: 0;
+
+  letter-spacing: normal;
+
+  color: #000;
+  background-color: #fff;
+
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 500; /* 700 больше совпадает с макетом, нежели 500 */
+  line-height: 22px;
+}
+
+
+
+.since-logo
+{
+  width: 188px;
+  margin: 25px auto 20px auto;
+}
+
+.since-logo img
+{
+  padding-left: 5px;
+}
+
+.since
+{
+  text-align: center;
+}
+
+.since:after
+{
+  position: relative;
+  z-index: 1;
+  top: -12px;
+
+  display: block;
+
+  content: '';
+
+  border-bottom: 2px solid #eee;
+}
+
+.since span
+{
+  position: relative;
+  z-index: 2;
+
+  display: inline;
+
+  padding-right: 15px;
+  padding-left: 15px;
+
+  text-transform: uppercase;
+
+  background: #fff;
+}
+
+.products
+{
+  margin-bottom: 35px;
+  padding-bottom: 80px;
+
+  border-bottom: 2px solid #eee;
+}
+
+.pre-ul
+{
+  margin-top: 30px;
+}
+
+.about-main
+{
+  margin-bottom: 20px;
+
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.about
+{
+  border-bottom: 2px solid #eee;
+}
+
+.b32
+{
+  float: left;
+
+  width: 620px;
+}
+
+.b31
+{
+  float: right;
+
+  width: 240px;
+}
+
+.pre-ul
+{
+  margin-top: 26px;
+  margin-bottom: 22px;
+
+  text-transform: uppercase;
+
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.mdashed
+{
+  width: auto;
+  margin-bottom: 70px;
+  padding-left: 35px;
+
+  list-style: none;
+
+  font-size: 16px;
+  line-height: 22px;
+}
+
+
+.mdashed li
+{
+  position: relative;
+
+  margin-bottom: 22px;
+}
+
+.mdashed li:before
+{
+  position: absolute;
+  bottom: 10px;
+  left: -35px;
+
+  display: inline-block;
+
+  width: 25px;
+
+  content: '';
+  vertical-align: top;
+
+  border-bottom: 2px solid red;
+  background-color: red;
+}
+
+.products-item
+{
+  float: left;
+
+  width: 240px;
+  margin-right: 80px;
+}
+
+.products-item:nth-child(3n)
+{
+  float: right;
+
+  margin-right: 0;
+}
+
+.products-item p
+{
+  margin-bottom: 25px;
+
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.products-item img
+{
+  padding-bottom: 5px;
+}
+
+.products-item h1
+{
+  text-transform: uppercase;
+
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.products-item .btn
+{
+  height: 25px;
+  padding: 8px 35px 4px 35px;
+}
+
+
+.pagination
+{
+  margin: 0;
+  padding: 0;
+}
+
+.pagination li
+{
+  display: inline-block;
+
+  margin-bottom: 80px;
+
+  list-style: none;
+
+  vertical-align: top;
+}
+
+/* just for test */
+.pinked
+{
+  color: #fff;
+  background-color: #f4476b;
+}

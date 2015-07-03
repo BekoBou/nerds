@@ -1,0 +1,39 @@
+.graveyard
+{
+  margin-bottom: 85px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+
+  border-bottom: 2px solid #eee;
+}
+
+.graveyard-item
+{
+  float: left;
+
+  width: 220px;
+  margin: 0;
+  margin-right: 100px;
+  padding: 0;
+
+  opacity: .5;
+}
+
+.graveyard-item:nth-child(3n)
+{
+  float: right;
+
+  width: 230px;
+  margin-right: 0;
+}
+
+.graveyard-item img
+{
+  max-width: 210px;
+  margin: 0 5px 0 5px;
+}
+
+.graveyard-item:hover
+{
+  opacity: 1;
+}

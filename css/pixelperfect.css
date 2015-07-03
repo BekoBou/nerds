@@ -1,0 +1,45 @@
+.designOverlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 101%;
+
+  text-align: center;
+}
+.designOverlay a
+{
+  position: fixed;
+  z-index: 6000;
+
+  width: 40px;
+  height: 40px;
+}
+.designOverlay img
+{
+  position: relative;
+  z-index: 5000;
+
+  opacity: .5;
+}
+.overlay-off
+{
+  top: 15px;
+  left: 55px;
+
+  background: rgba(113,19,19, .3);
+}
+.overlay-on
+{
+  top: 15px;
+  left: 15px;
+
+  background: rgba(19,112,20,.3);
+}
+
+#no-overlay:target
+{
+  display: none;
+}

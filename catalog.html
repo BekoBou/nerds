@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Магазин — NЁRDS</title>
+  <link rel="stylesheet" href="assets/style.min.css">
+</head>
+
+<body>
+  <header class="top-header">
+    <div class="container menu clearfix">
+
+      <a href="index.html">
+        <img src="img/logo-main.png" alt="NЁRDS logotype" width="140" height="56" class="logo">
+      </a>
+
+      <div class="menu-item--backet user">
+        <a href="#/cart"><i class="icon-basket"></i>Корзина</a>
+      </div>
+
+      <nav>
+        <ul class="menu menu_main">
+          <li class="menu-item"><a href="#/studio">Студия</a>
+          </li>
+          <li class="menu-item"><a href="#/clients">Клиенты</a>
+          </li>
+          <li class="menu-item menu-item--active"><a href="catalog.html">Магазин</a>
+          </li>
+          <li class="menu-item"><a href="#/contacts">Конткаты</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- nav -->
+    </div>
+    <div class="container clearfix">
+      <div class="intro-title">
+        Добро пожаловать в магазин готовых макетов
+      </div>
+    </div>
+  </header>
+  <div class="container clearfix">
+    <div class="filter">
+      <form action="#/filter" method="GET">
+        <p class="filter__title">Стоимость:</p>
+
+        <div class="range-filter">
+          <div class="range-controls">
+            <div class="scale">
+              <div style="margin-left:50px;width:100px;" class="bar"></div>
+            </div>
+            <div class="toggle min-toggle"></div>
+            <div class="toggle max-toggle"></div>
+          </div>
+          <div class="price-controls">
+            от
+            <input class="min-price" type="text" value="5 000">до
+            <input class="max-price" type="text" value="15 000">
+          </div>
+        </div>
+
+        <p class="filter__title">Сетка:</p>
+
+        <ul class="filter-list">
+          <li>
+            <input class="filter__radioitem" type="radio" name="filter_group" id="fg1" checked>
+            <label for="fg1">Адаптивная</label>
+          </li>
+          <li>
+            <input class="filter__radioitem" type="radio" name="filter_group" id="fg2">
+            <label for="fg2">Фиксированная</label>
+          </li>
+          <li>
+            <input class="filter__radioitem" type="radio" name="filter_group" id="fg3">
+            <label for="fg3">Резиновая</label>
+          </li>
+        </ul>
+
+        <p class="filter__title">Особенности:</p>
+
+        <ul class="filter-list last">
+          <li>
+            <input class="filter__checkboxitem" type="checkbox" id="p1" name="p1" checked>
+            <label for="p1">Слайдер</label>
+          </li>
+          <li>
+            <input class="filter__checkboxitem" type="checkbox" id="p2" name="p2">
+            <label for="p2">Блок преимуществ</label>
+          </li>
+          <li>
+            <input class="filter__checkboxitem" type="checkbox" id="p3" name="p3" disabled checked>
+            <label for="p3">Новости</label>
+          </li>
+          <li>
+            <input class="filter__checkboxitem" type="checkbox" id="p4" name="p4" disabled>
+            <label for="p4">Галерея</label>
+          </li>
+          <li>
+            <input class="filter__checkboxitem" type="checkbox" id="p5" name="p5">
+            <label for="p5">Корзина</label>
+          </li>
+        </ul>
+
+        <button class="btn" type="submit">Показать</button>
+      </form>
+
+    </div>
+
+    <div class="catalog">
+      <div class="sort-order clearfix">
+        <div class="sort-order__text">Сортировать:</div>
+        <div class="order">
+
+          <a href="#/?cost">По цене</a>
+          <a class="order--active" href="#/?type">По типу</a>
+          <a href="#/?func">По функционалу</a>
+
+        </div>
+        <div class="sort">
+          <a class="icon-down-dir sort-order--active" href="#/?desc"></a>
+          <a class="icon-up-dir" href="#/?asc"></a>
+        </div>
+      </div>
+
+      <div class="designs clearfix">
+        <section class="designs-item">
+          <a href="#/item/1">
+            <img src="pics/design-thumb-1.jpg" width="240" height="240" alt="1.png">
+          </a>
+          <div class="design-item__info">
+            <h1>Sunset</h1>
+            <p>Интернет магазин с личным кабинетом</p>
+            <a href="#/" class="btn btn--web btn--long">10 000 P.</a>
+          </div>
+        </section>
+        <section class="designs-item">
+          <a href="#/item/1">
+            <img src="pics/design-thumb-2.jpg" width="240" height="240" alt="1.png">
+          </a>
+          <div class="design-item__info">
+            <h1>Sunset</h1>
+            <p>Интернет магазин с личным кабинетом</p>
+            <a href="#/" class="btn btn--web btn--long">10 000 P.</a>
+          </div>
+        </section>
+        <section class="designs-item">
+          <a href="#/item/1">
+            <img src="pics/design-thumb-5.jpg" width="240" height="240" alt="1.png">
+          </a>
+          <div class="design-item__info">
+            <h1>Sunset</h1>
+            <p>Интернет магазин с личным кабинетом</p>
+            <a href="#/" class="btn btn--web btn--long">10 000 P.</a>
+          </div>
+        </section>
+        <section class="designs-item">
+          <a href="#/item/1">
+            <img src="pics/design-thumb-4.jpg" width="240" height="240" alt="1.png">
+          </a>
+          <div class="design-item__info">
+            <h1>Sunset</h1>
+            <p>Интернет магазин с личным кабинетом</p>
+            <a href="#/" class="btn btn--web btn--long">10 000 P.</a>
+          </div>
+        </section>
+        <section class="designs-item">
+          <a href="#/item/1">
+            <img src="pics/design-thumb-3.jpg" width="240" height="240" alt="1.png">
+          </a>
+          <div class="design-item__info">
+            <h1>Sunset</h1>
+            <p>Интернет магазин с личным кабинетом</p>
+            <a href="#/" class="btn btn--web btn--long">10 000 P.</a>
+          </div>
+        </section>
+        <section class="designs-item">
+          <a href="#/item/1">
+            <img src="pics/design-thumb-6.jpg" width="240" height="240" alt="1.png">
+          </a>
+          <div class="design-item__info">
+            <h1>Sunset</h1>
+            <p>Интернет магазин с личным кабинетом</p>
+            <a href="#/" class="btn btn--web btn--long">10 000 P.</a>
+          </div>
+        </section>
+      </div>
+
+      <nav>
+        <ul class="pagination">
+          <li><a class="btn btn--pagination btn--active" href="#/page/1">1</a>
+          </li>
+          <li><a class="btn btn--pagination" href="#/page/2">2</a>
+          </li>
+          <li><a class="btn btn--pagination" href="#/page/3">3</a>
+          </li>
+          <li><a class="btn btn--pagination btn--next" href="#/page/1">Следующая</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+
+  <div class="map">
+    <article class="map-contact">
+      <h1 class="map-contact__title">NЁRDS DESIGN STUDIO</h1> 
+      <p class="map-contact__text">191186, Санкт-Петербург,
+        <br>ул. Б. Конюшенная, д. 19/8</p>
+      <p class="map-contact__text map-contact__text--last">тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a>
+      </p>
+      <a id="feedback" class="btn btn--web btn--long">Напишите нам</a>
+    </article>
+
+    <div id="map-canvas" class="map-canvas"></div>
+
+  </div>
+
+  <footer>
+    <div class="container clearfix">
+      <div class="social">
+        <a class="icon-vk" href="#/vk">&nbsp;<!-- для центровки один пробел --></a>
+        <a class="icon-facebook" href="#/fb"></a>
+        <a class="icon-twitter" href="#/tw"></a>
+      </div>
+      <div class="friends">
+        <p class="friends-title">Давайте дружить, это выгодно!</p>
+        <p class="friends-offer">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal">
+    <div class="modal-content-close">закрыть</div>
+    <div class="modal-content">
+      <form action="/echo" method="POST">
+        <div class="b2">
+
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" name="name" placeholder="Представьтесь, пожалуйста">
+        </div>
+        <div class="b2 last clearfix">
+          <label for="email">Ваше e-mail:</label>
+          <input type="text" id="email" name="email" placeholder="для отправки ответа">
+        </div>
+        <div class="b1">
+          <label for="text">Ваш текст:</label>
+          <textarea name="text" id="text" placeholder="В свободной форме"></textarea>
+        </div>
+
+        <div class="b1 clearfix">
+          <button class="btn btn--web btn--feedback">Отправить</button>
+          <!-- -->
+          <button class="btn btn--feedback">Отмена</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+  <script src="js/map.js"></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () { 
+          console.log('document loaded');
+          // placeholder for JavaScript
+          
+          var feedback = document.getElementById('feedback');
+          var modal = document.querySelector(".modal");
+          var close = document.querySelector(".modal-content-close");
+          
+          feedback.addEventListener('click', function (event) {
+            event.preventDefault();
+            modal.classList.add('modal-show');
+          });
+          
+          close.addEventListener('click', function(event) {
+            event.preventDefault();
+            modal.classList.remove('modal-show');
+          });
+          
+        }, false);
+  </script>
+
+</body>
+
+</html>

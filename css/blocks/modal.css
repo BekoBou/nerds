@@ -1,0 +1,222 @@
+.modal
+{
+  position: fixed;
+  z-index: 1001;
+  top: 50%;
+  left: 50%;
+
+  display: none;
+
+  width: 460px; /* 630px - 90 -80 */
+  height: 315px; /* 415px - 100 */
+  margin-top: -207px;
+  margin-left: -315px;
+  padding: 50px 90px 50px 80px;
+
+  background-color: #fff;
+  box-shadow: 0 20px 40px #000;
+}
+
+.modal-content-close
+{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  width: 41px;
+  height: 41px;
+
+  cursor: pointer;
+
+  background: url('../../img/close.png') no-repeat center;
+
+  font-size: 0;
+}
+
+.modal-content
+{
+  margin-top: 5px;
+  padding: 0;
+
+  background-color: #ddd;
+}
+
+.b2,
+.b1
+{
+  float: left;
+}
+
+.b1
+{
+  width: 100%;
+}
+
+.b2
+{
+  width: 220px;
+}
+
+
+
+.b2.last
+{
+  float: right;
+
+  margin-left: 20px;
+}
+
+.btn--feedback
+{
+  width: 220;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.modal-content label
+{
+  display: inline-block;
+
+  margin-bottom: 8px;
+
+  vertical-align: top;
+
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.modal-content .b2
+{
+  margin-bottom: 20px;
+}
+
+.modal-content .b1
+{
+  margin-bottom: 42px;
+}
+
+.modal-content .btn
+{
+  float: left;
+
+  width: 220px;
+}
+
+.modal-content .btn:last-child
+{
+  float: right;
+}
+
+.modal input[type='text'],
+.modal input[type='email'],
+.modal textarea
+{
+  margin: 0;
+  padding: 10px 15px;
+
+  text-transform: uppercase;
+
+  color: #000;
+  border: 2px solid #d7dcde;
+  border-radius: 2px;
+  outline: none;
+
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@-webkit-keyframes bounce
+{
+  0%
+  {
+    transform: translateY(-2000px);
+  }
+  70%
+  {
+    transform: translateY(30px);
+  }
+  90%
+  {
+    transform: translateY(-10px);
+  }
+  100%
+  {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce
+{
+  0%
+  {
+    transform: translateY(-2000px);
+  }
+  70%
+  {
+    transform: translateY(30px);
+  }
+  90%
+  {
+    transform: translateY(-10px);
+  }
+  100%
+  {
+    transform: translateY(0);
+  }
+}
+
+.modal-show
+{
+  display: block;
+
+  -webkit-animation: bounce .6s;
+          animation: bounce .6s;
+}
+
+::-webkit-input-placeholder
+{
+  color: #000;
+}
+::-moz-placeholder
+{
+  color: #000;
+}/* Firefox 19+ */
+:-moz-placeholder
+{
+  color: #000;
+}/* Firefox 18- */
+:-ms-input-placeholder
+{
+  color: #000;
+}
+::placeholder
+{
+  color: #000;
+}
+
+.modal input[type='text']:hover,
+.modal input[type='email']:hover,
+.modal textarea:hover
+{
+  border: 2px solid #a2a9ac;
+}
+
+.modal input[type='text']:focus,
+.modal input[type='email']:focus,
+.modal textarea:focus
+{
+  border: 2px solid #56bffb;
+}
+
+.modal textarea
+{
+  width: 425px; /* 460 - 15*2 - 4 - 1 :) */
+  height: 90px;
+}
+
+.modal input[type='text'],
+.modal input[type='email']
+{
+  width: 185px; /* 220 - 15*2 - 4 - 1 */
+  height: 15px;
+}

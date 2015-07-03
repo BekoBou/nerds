@@ -1,0 +1,105 @@
+/* Google font import Roboto Medium */
+@import url(http://fonts.googleapis.com/css?family=Roboto:500&subset=latin,cyrillic);
+
+@charset 'UTF-8';
+
+@font-face
+{
+  font-family: 'symbols-nerds';
+  font-weight: normal;
+  font-style: normal;
+
+  src: url('../fonts/symbols-nerds.eot?27841936');
+  src: url('../fonts/symbols-nerds.eot?27841936#iefix') format('embedded-opentype'),
+  url('../fonts/symbols-nerds.woff?27841936') format('woff'),
+  url('../fonts/symbols-nerds.ttf?27841936') format('truetype'),
+  url('../fonts/symbols-nerds.svg?27841936#symbols-nerds') format('svg');
+}
+
+[class^='icon-']:before,
+[class*=' icon-']:before
+{
+  display: inline-block;
+
+  width: 1em;
+  margin-right: .2em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+
+  font-family: 'symbols-nerds';
+  font-weight: normal;
+  font-style: normal;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  speak: none;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-basket:before
+{
+  content: '\62';
+} /* 'b' */
+.icon-facebook:before
+{
+  content: '\66';
+} /* 'f' */
+.icon-twitter:before
+{
+  content: '\74';
+} /* 't' */
+.icon-vk:before
+{
+  content: '\76';
+} /* 'v' */
+.icon-up-dir:before
+{
+  content: '\25b2';
+} /* '▲' */
+.icon-down-dir:before
+{
+  content: '\25bc';
+} /* '▼' */
+.icon-circle:before
+{
+  content: '\25cb';
+} /* '○' */
+.icon-circle-dot:before
+{
+  content: '\25cf';
+} /* '●' */
+.icon-check-off:before
+{
+  content: '\2610';
+} /* '☐' */
+.icon-check-on:before
+{
+  content: '\2611';
+} /* '☑' */
+.icon-instagramm:before
+{
+  content: '📷';
+} /* '\1f4f7' */
+
+~ .clearfix:after
+{
+  display: table;
+  clear: both;
+
+  content: '';
+}
+
+/* end of import fonts */
